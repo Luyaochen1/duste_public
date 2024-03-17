@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /autogen-2024-03-17-142449/
