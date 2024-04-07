@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasheed Shekoni Federal University Teaching Hospital - Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .contact-form input, .contact-form textarea {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 16px;
+            width: 100%;
+        }
+        .contact-form button {
+            background-color: #4f46e5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #4338ca;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header id="site-header" class="bg-white text-center py-4 shadow">
+        <!-- Footer content from index.html goes here -->
+    </header>
+
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-2xl font-semibold mb-4">Contact us</h2>
+                <p class="mb-6">Feel free to give us a call or send us an email with your questions or comments.</p>
+                <p class="mb-6">Have a question? Leave us a message and we'll get back to you soon. Please don't submit sensitive medical information, we'll get that when we talk to you.</p>
+                <form action="mailto:contact@duste.org" method="POST" enctype="text/plain" class="contact-form">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email address *</label>
+                        <input type="email" id="email" name="email" placeholder="email@website.com" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Phone number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+            <div>
+                <h2 class="text-2xl font-semibold mb-4">Contact us</h2>
+                <p class="flex items-center mb-2"><span class="material-icons-outlined text-gray-500 mr-2">email</span> contact@duste.org</p>
+                <h3 class="text-xl font-semibold mb-2">Location</h3>
+                <p class="flex items-center mb-6"><span class="material-icons-outlined text-gray-500 mr-2">place</span> Duste, Kano </p>
+                <h3 class="text-xl font-semibold mb-2">Hours</h3>
+                <div class="space-y-1">
+                    <p>Monday: 9:00am – 10:00pm</p>
+                    <p>Tuesday: 9:00am – 10:00pm</p>
+                    <p>Wednesday: 9:00am – 10:00pm</p>
+                    <p>Thursday: 9:00am – 10:00pm</p>
+                    <p>Friday: 9:00am – 10:00pm</p>
+                    <p>Saturday: 9:00am – 6:00pm</p>
+                    <p>Sunday: 9:00am – 12:00pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="site-footer" class="bg-white text-center py-4 shadow">
+        <!-- Footer content from index.html goes here -->
+    </footer>
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
